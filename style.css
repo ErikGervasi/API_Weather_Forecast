@@ -51,8 +51,12 @@ input::placeholder {
 
 
 .city-country{
+    display: flex;
     font-size: 25px;
     font-weight: 700;
-    color: aquamarine;
+    color: rgb(127, 172, 255);
     text-shadow: 2px 2px black;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
 }
