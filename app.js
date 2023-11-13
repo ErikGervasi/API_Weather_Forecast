@@ -18,10 +18,11 @@ function chamarPrevisao(){
         .then(function(data) {
             const temperaturaCelsius = data.main.temp - 273.15; // Conversão de Kelvin para Celsius
             const previsaoDiv = document.getElementById('previsao');
+            const descricaoTempo = traduzirDescricaoTempo(data.weather[0].description);
             previsaoDiv.innerHTML = 
             `
               <span class="city-country">${data.name}, ${data.sys.country}</span>
-              <p>Tempo: ${data.weather[0].description} </p>
+              <p>Tempo: ${descricaoTempo} </p>
               <p>Temperatura: ${temperaturaCelsius.toFixed(0)}°C</p>
               <p>Umidade: ${data.main.humidity}%</p>
             `;
@@ -39,6 +40,22 @@ function chamarPrevisao(){
               chamarPrevisao(); // Chama a função quando a tecla "Enter" é pressionada
             }
           }
-        );
+        )
+
+        function traduzirDescricaoTempo(descricao) {
+          switch (descricao) {
+              case 'Clear':
+                  return 'Céu Limpo';
+              case 'Clouds':
+                  return 'Nuvens';
+              case 'Rain':
+                  return 'Chuva';
+              case "moderate rain":
+                  return "teste";
+              // Adicione mais casos conforme necessário
+              default:
+                  return descricao; // Retorna a descrição original se não houver correspondência
+          }
+        }
 
         
