@@ -59,7 +59,9 @@ function chamarPrevisao(){
               case 'few clouds':
                   return 'Poucas nuvens';                  
               case 'overcast clouds':
-                  return 'Nublado';                  
+                  return 'Nublado';   
+              case 'thunderstorm with light rain':
+                  return 'Tempestade com raios';               
 
 
               // Adicione mais casos conforme necessário
