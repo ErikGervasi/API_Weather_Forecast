@@ -44,7 +44,7 @@ function chamarPrevisao(){
 
         function traduzirDescricaoTempo(descricao) {
           switch (descricao) {
-              case 'clear':
+              case 'clear sky':
                   return 'Céu Limpo';
               case 'clouds':
                   return 'Nuvens';
@@ -53,9 +53,15 @@ function chamarPrevisao(){
               case 'moderate rain':
                   return 'Chuva moderada';
               case 'broken clouds':
-                  return 'Nublado';
+                  return 'Nuvens quebradas';
               case 'thunderstorm':
                   return 'Tempestade / Trovoada';
+              case 'few clouds':
+                  return 'Poucas nuvens';                  
+              case 'overcast clouds':
+                  return 'Nublado';                  
+
+
               // Adicione mais casos conforme necessário
               default:
                   return descricao; // Retorna a descrição original se não houver correspondência
