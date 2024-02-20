@@ -15,9 +15,13 @@ Este é um projeto simples de previsão do tempo desenvolvido por Erik Gervasi. 
 - CSS3
 - JavaScript
 
+## Conferir o Projeto
+
+Você pode conferir o projeto online [aqui](https://erikgervasi.github.io/API_Weather_Forecast/).
+
 ## Como Usar
 
-1. Abra o arquivo `index.html` em um navegador da web.
+1. Abra o arquivo `index.html` ou o link acima em um navegador da web.
 2. Digite o nome de uma cidade brasileira na caixa de pesquisa.
 3. Pressione o botão de pesquisa ou a tecla "Enter".
 4. Aguarde a exibição da previsão do tempo para a cidade digitada.
@@ -29,10 +33,6 @@ Este projeto utiliza a API OpenWeatherMap para obter dados meteorológicos. Voc�
 ## Contribuição
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request.
-
-## Conferir o Projeto
-
-Você pode conferir o projeto online [aqui](https://erikgervasi.github.io/API_Weather_Forecast/).
 
 ## Autor
 
