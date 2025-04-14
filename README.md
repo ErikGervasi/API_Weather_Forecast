@@ -1,6 +1,6 @@
 # ErikGrv - Previsão do Tempo
 
-Este é um projeto simples de previsão do tempo desenvolvido por Erik Gervasi. Ele utiliza a API OpenWeatherMap para obter dados meteorológicos de cidades do Brasil.
+Este é um projeto simples de previsão do tempo. Ele utiliza a API OpenWeatherMap para obter dados meteorológicos de cidades do Brasil.
 
 ## Funcionalidades
 
